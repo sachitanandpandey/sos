@@ -1,43 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>SOSreport by sosreport</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="SOSreport : A unified tool for collecting system logs and other debug information">
 
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>SOSreport</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/sosreport/sos">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/sosreport/sos/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/sosreport/sos/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
 
-    <div class="wrapper">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/sachitanandpandey/sos">View on GitHub</a>
 
-      <section>
-        <div id="title">
-          <h1>SOSreport</h1>
-          <p>A unified tool for collecting system logs and other debug information</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/sosreport">sosreport</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+          <h1 id="project_title">SOSreport</h1>
+          <h2 id="project_tagline">A unified tool for collecting system logs and other debug information</h2>
 
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/sachitanandpandey/sos/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/sachitanandpandey/sos/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <p><a href="https://travis-ci.org/sosreport/sos"><img src="https://travis-ci.org/sosreport/sos.svg?branch=master" alt="Build Status"></a></p>
 
 <p>This set of tools is designed to provide information to support organizations
@@ -86,9 +79,16 @@ to build a deb ==&gt; make deb
 <pre><code>sudo apt-get install sosreport
 </code></pre>
       </section>
-
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">SOSreport maintained by <a href="https://github.com/sachitanandpandey">sachitanandpandey</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
@@ -99,6 +99,7 @@ to build a deb ==&gt; make deb
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
+
 
   </body>
 </html>
